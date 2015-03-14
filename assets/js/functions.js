@@ -15,7 +15,7 @@ jQuery(document).ready(function($){
 		});
 		childfx.addGear({
 			name  		: 'archive_furniture_custom',
-			locations 	: ['post-type-archive-furniture'],
+			locations 	: ['post-type-archive-furniture','tax-brand'],
 			func_names 	: ['remove_excerpt','wrap_cols','boxed-content','nav-format']
 		});
 		childfx.addGear({

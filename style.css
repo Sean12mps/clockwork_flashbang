@@ -134,7 +134,10 @@ ul.horizontal li{
 ------------------------------------------------------------ */
 .wrapper_inner_logo {
     padding-top: 40px;
-    
+}
+
+.wrapper_front-page-logo {
+    padding-top: 20px;
 }
 
 
@@ -143,35 +146,44 @@ ul.horizontal li{
 /*.post-type-archive-furniture .post-info {
     border-bottom: none;
 }*/
-.post-type-archive-furniture .page-title {
+/*.post-type-archive-furniture .page-title {*/
+.page-title {
     margin: 0px;
     background: rgba( 233, 233, 233, 0.8 );
     padding-left: 10px;
     margin-bottom: 10px;
 }
 
+.tax-brand .pagination-top,
 .post-type-archive-furniture .pagination-top,
+.tax-brand .pagination-container,
 .post-type-archive-furniture .pagination-container {
     font-size: 12px;
 
 }
 
+.tax-brand .pagination-top .pagination,
+.tax-brand .pagination-container .pagination,
 .post-type-archive-furniture .pagination-top .pagination,
 .post-type-archive-furniture .pagination-container .pagination {
     margin: 0px;
     margin-top: 10px;
 }
 
+.tax-brand .pagination-top .pagination>li>a,
+.tax-brand .pagination-container .pagination>li>a,
 .post-type-archive-furniture .pagination-top .pagination>li>a,
 .post-type-archive-furniture .pagination-container .pagination>li>a {
     border-radius: 0px;
 }
 
+.tax-brand .pagination-bottom,
 .post-type-archive-furniture .pagination-bottom {
     text-align: right;
     padding-right: 10px;
 }
 
+.tax-brand .entry-content,
 .post-type-archive-furniture .entry-content {
     padding-bottom: 0px;
     margin-bottom: 0px;
@@ -180,21 +192,25 @@ ul.horizontal li{
     position: relative;
 }
 
+.tax-brand .hentry,
 .post-type-archive-furniture .hentry {
     margin-bottom: 0px;
     padding-bottom: 10px;
 }
 
+.tax-brand .entry-content a,
 .post-type-archive-furniture .entry-content a {
     display: inline-block;
     /* max-height: 150px; */
     width: 100%;
 }
 
+.tax-brand .entry-content .link-post-title:hover,
 .post-type-archive-furniture .entry-content .link-post-title:hover {
     color: #000000;
 }
 
+.tax-brand .entry-content h1,
 .post-type-archive-furniture .entry-content h1 {
     font-size: 14px;
     font-weight: normal;
